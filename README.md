@@ -1,5 +1,5 @@
 # Password Keyboard
-![](demo.gif)
+![](demo.gif =250x250)
 ### Aviable options:
 ```app:passwordLength``` - length of your password (from 4 to 8 characters ,default 4)\
 ```app:openBiometryOnLoad``` - If true - opens biometry dialog on load (default true)\
