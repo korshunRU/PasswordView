@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PasswordViewLayout">
+        <attr
+            name="passwordLength"
+            format="integer" />
+        <attr
+            name="openBiometryOnLoad"
+            format="boolean" />
+    </declare-styleable>
+</resources>

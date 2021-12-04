@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PasswordViewLayout</string>
+
+    <string name="img_content_desc">img</string>
+
+    <string name="welcome_pass_input_text">Введите пароль</string>
+    <string name="pass_number_1">1</string>
+    <string name="pass_number_2">2</string>
+    <string name="pass_number_3">3</string>
+    <string name="pass_number_4">4</string>
+    <string name="pass_number_5">5</string>
+    <string name="pass_number_6">6</string>
+    <string name="pass_number_7">7</string>
+    <string name="pass_number_8">8</string>
+    <string name="pass_number_9">9</string>
+    <string name="pass_number_0">0</string>
+    <string name="change_user_text">Сменить пользователя</string>
+    <string name="password_length_error">Password length must be between 4 and 8 characters</string>
+
+    <string name="biometric_error">Ошибка: %s (код %d)</string>
+    <string name="biometric_dialog_title">Активирован вход по отпечатку пальца</string>
+    <string name="biometric_dialog_subtitle">Приложите палец к сканеру</string>
+    <string name="biometric_enter_pass">Ввести пароль</string>
+    <string name="no_biometry_error">No biometric features available on this device</string>
+
+</resources>
