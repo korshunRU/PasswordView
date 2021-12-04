@@ -6,7 +6,7 @@
 ```app:openBiometryOnLoad``` - If true - opens biometry dialog on load (default true)\
 
 ### How to use
-Add this code to your layout\
+Add this code to your layout
 ```xml
     <ru.korshun.passwordviewlayout.PasswordViewLayout
         android:id="@+id/passwordViewLayout"
@@ -18,6 +18,7 @@ Your Activity or Fragment must implement OnEnterPasswordListener interface:
 ```kotlin
     override fun getPassword(s: String) {
         // gets a password after input
+        // your logic here
     }
 ```
 Send listener:
