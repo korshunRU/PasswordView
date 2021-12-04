@@ -1,6 +1,6 @@
 # Password Keyboard
 
-![](demo.gif)
+![](demo.gif=270x600)
 
 ### Aviable options:
 ```app:passwordLength``` - length of your password (from 4 to 8 characters ,default 4)\
