@@ -21,8 +21,8 @@ Add the dependency
 
 ```
 dependencies {
-	        implementation 'com.github.korshunRU:PasswordView:1.0.5'
-	}
+	implementation 'com.github.korshunRU:PasswordView:1.0.5'
+}
 ```
 
 Add this code to your layout
