@@ -24,19 +24,15 @@ Send listener:
 ```kotlin
 mPasswordViewLayout?.setOnEnterPasswordListener(this)
 ```
-Declare biometry authentication callback:
+Declare biometry authentication callback and send it:
 ```kotlin
         val authenticationCallback = object : BiometricPrompt.AuthenticationCallback() {
             override fun onAuthenticationError(errorCode: Int,
                                                errString: CharSequence) {
-                super.onAuthenticationError(errorCode, errString)
-                if (errorCode != BiometricPrompt.ERROR_NEGATIVE_BUTTON &&
-                    errorCode != BiometricPrompt.ERROR_USER_CANCELED
-                ) {
+                super.onAuthenticationError(errorCode, errString)          
                     Toast.makeText(applicationContext,
                         "Authentication error: $errString", Toast.LENGTH_SHORT)
                         .show()
-                }
             }
 
             override fun onAuthenticationSucceeded(result: BiometricPrompt.AuthenticationResult) {
