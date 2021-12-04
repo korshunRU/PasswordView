@@ -22,7 +22,7 @@ Add the dependency
 
 ```
 dependencies {
-	        implementation 'com.github.korshunRU:PasswordView:Tag'
+	        implementation 'com.github.korshunRU:PasswordView:1.0.5'
 	}
 ```
 
