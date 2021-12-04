@@ -1,6 +1,5 @@
 # Password Keyboard
-<img src="demo.gif" width="100" height="100">
-![smiley](demo.gif){:height="36px" width="36px"}
+<img src="demo.gif" width="315" height="700">
 ### Aviable options:
 ```app:passwordLength``` - length of your password (from 4 to 8 characters ,default 4)\
 ```app:openBiometryOnLoad``` - If true - opens biometry dialog on load (default true)\
