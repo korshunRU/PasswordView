@@ -8,14 +8,13 @@
 
 ### How to use
 
-Add it in your root build.gradle at the end of repositories:
+Add it in your root build.gradle and in your settings.gradle (if it exist) at the end of repositories:
 ```
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+repositories {
+	...
+	maven { url 'https://jitpack.io' }
+}
+
 ```
 
 Add the dependency
