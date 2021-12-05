@@ -3,7 +3,7 @@
 <img src="demo.gif" width="360" height="800">
 
 ### Aviable options:
-```app:passwordLength``` - length of your password (from 4 to 8 characters ,default 4)\
+```app:passwordLength``` - length of your password (from 4 to 8 characters, default 4)\
 ```app:openBiometryOnLoad``` - If true - opens biometry dialog on load (default true)\
 
 ### How to use
